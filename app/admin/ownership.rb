@@ -1,4 +1,5 @@
 ActiveAdmin.register Ownership do
+  permit_params :owned_since
 
 
   # See permitted parameters documentation:
