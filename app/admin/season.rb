@@ -1,4 +1,5 @@
 ActiveAdmin.register Season do
+  permit_params :number, :part
 
 
   # See permitted parameters documentation:
